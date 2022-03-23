@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'zoo1'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7714071C1FE84C4CB1D973A1E098A02A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AB4C22CB134948E181CA4BE3F34D0130 }}
