@@ -12,5 +12,5 @@ class Config(object):
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'mystorageaccountaaa'
-    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'III6VVBMn2yLR9IdTgud/FiZIS5mMcUBghS473vasaiKqa1peZdXrWHWLOQllMw8xGSugdez+tNt+AStF+EWuQ=='
+    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or '3xhagmvSMl62gioMdwnMikHbAlYAudnpQMk67t8xdKShcQougisCzzqwBzsXgjBW3qKmg5yp0Bz3+ASttU8q4g=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
